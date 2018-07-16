@@ -14,6 +14,11 @@ import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 
+import com.davidpopayan.sena.quindioturisticobogota.Fragments.FragmentHoteles;
+import com.davidpopayan.sena.quindioturisticobogota.Fragments.FragmentInicio;
+import com.davidpopayan.sena.quindioturisticobogota.Fragments.FragmentRestaurantes;
+import com.davidpopayan.sena.quindioturisticobogota.Fragments.FragmentSitios;
+
 public class prueba extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
 
@@ -24,14 +29,6 @@ public class prueba extends AppCompatActivity
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-        FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
-        fab.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show();
-            }
-        });
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
@@ -86,12 +83,20 @@ public class prueba extends AppCompatActivity
 
 
         if (id == R.id.nav_inicio) {
+            fragment = new FragmentInicio();
+            getSupportFragmentManager().beginTransaction().replace(R.id.contenedor, fragment).commit();
 
         } else if (id == R.id.nav_hoteles) {
+            fragment = new FragmentHoteles();
+            getSupportFragmentManager().beginTransaction().replace(R.id.contenedor, fragment).commit();
 
         } else if (id == R.id.nav_restaura) {
+            fragment = new FragmentRestaurantes();
+            getSupportFragmentManager().beginTransaction().replace(R.id.contenedor, fragment).commit();
 
         } else if (id == R.id.nav_sitios) {
+            fragment = new FragmentSitios();
+            getSupportFragmentManager().beginTransaction().replace(R.id.contenedor, fragment).commit();
 
         }
 
