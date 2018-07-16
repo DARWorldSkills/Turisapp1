@@ -98,16 +98,34 @@ public class ListasSitos {
         armenia.setDescripcion("Una excelente opción en Armenia, el hotel es amplio y muy bien atendido por todo el personal. Las habitaciones son bastante cómodas y muy bien dotadas par tener una agradable estadía. La estadía incluye un desayuno tipo bufete que está muy bien balanceado y ofrece gran variedad.  Dirección: Avenida Bolivar 8\n");
         zuldemayda.setDescripcion("Hotel ubicado en el centro de la cuidad de Armenia (dos cuadras del parque principal), confortable, elegante, la atención es espectacular, wifi muy rapido, desayuno incluido, precios especiales los fines de semana. En la recepción lo asesoran en planes de recreación en todo el eje cafetero. Dirección: Calle 20 15-38 Armenia\n");
         decameron.setDescripcion("Este hotel no solamente cuenta con una ambientación increíble sino además es parte de la naturaleza de Armenia. La atención es muy buena, la comida excelente y además entrada a panaca ilimitada, Dirección: Km. 7 Vereda Kerman | Parque Nacional de la Cultura Agropecuaria, Quimbaya, Colombia \n");
-        heliconias.setDescripcion("Decameron Las Heliconias\n");
-        arrayanes.setDescripcion("Hotel Arrayanes del Quindio\n");
-        esperanza.setDescripcion("Finca Hotel La Esperanza\n");
+        heliconias.setDescripcion("Este excelente hotel, ubicado muy cerca de Panaca, como hotel, tienen una calificación de excelente, acceso al parque Panaca incluido y al Parque Nacional del Café, esto es muy bueno, además que cuenta con trasporte entre hoteles y parque, la comida buena, snack buenos, instalaciones excelentes, Dirección: Km 2 Vía a Panaca, Vereda Kerman, Quimbaya \n");
+        arrayanes.setDescripcion("Lugar estupendo para una estancia tranquila, relajada, con un ambiente sobrio y además muy bien ubicado para desplazamientos hacia los sitios turísticos o parques temáticos. Además el desayuno es estupendo, y el sitio se presta para leer en un super ambiente, Dirección: Km 1 Vía Montenegro-Parque del Cafe, Montenegro\n");
+        esperanza.setDescripcion("Una gran estadía con familia en un lugar donde se respira naturaleza y está cerca de los atractivos turísticos de la región. Una experiencia de servicio magnífica donde cada uno de las personas que trabajan allí hacen todo por que la experiencia sea magnífica, Dirección: Vereda la esperanza, Montenegro, Colombia \n");
 
+        bolivarPlaza.setLatitud((float) 4.45234778794663);
+        allure.setLatitud((float) 4.447555758701706);
+        armenia.setLatitud((float) 4.624838213794354);
+        zuldemayda.setLatitud((float) 4.637932138866702);
+        decameron.setLatitud((float) 4.622357223916545);
+        heliconias.setLatitud((float) 4.621929466163072);
+        arrayanes.setLatitud((float) 4.5659102936329115);
+        esperanza.setLatitud((float) 4.566295305869581);
+
+        bolivarPlaza.setLogitud((float) -75.78196047823484);
+        allure.setLogitud((float) -75.78938483278806);
+        armenia.setLogitud((float) -75.762595160852);
+        zuldemayda.setLogitud((float) -75.57060538862306);
+        decameron.setLogitud((float) -75.76650045717768);
+        heliconias.setLogitud((float) -75.76083563173823);
+        arrayanes.setLogitud((float) -75.75595653681637);
+        esperanza.setLogitud((float) -75.75057066111447);
 
 
 
     }
 
-
+    public static Sitio[] hoteles = {bolivarPlaza, allure, armenia, zuldemayda, decameron, heliconias, arrayanes, esperanza,
+    };
 
 
 
